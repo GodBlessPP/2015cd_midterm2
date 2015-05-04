@@ -1833,7 +1833,7 @@ def spuraction(self, N=20, M=5, P=15):
     output += "齒數為"+str(N)+"&lt;br /&gt;"
     output += "模數為"+str(M)+"&lt;br /&gt;"
     output += "壓力角為"+str(P)+"&lt;br /&gt;"
-    output += "學號為"40223248"&lt;br /&gt;"
+    output += "學號為40223248""&lt;br /&gt;"
     output +='''&lt;br /&gt;&lt;a href="/spur"&gt;spur&lt;/a&gt;(按下後再輸入)&lt;br /&gt;'''
     output +='''&lt;br /&gt;&lt;a href="index"&gt;index&lt;/a&gt;&lt;br /&gt;
     &lt;/body&gt;
