@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
+<!-- Created by Leo (http://leoeditor.com/leo_toc.html) -->
 <?xml-stylesheet ekr_test ?>
-<leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
+<leo_file xmlns:leo="http://www.leo-editor.org/2011/leo" >
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
 	<global_window_position top="50" left="50" height="500" width="700"/>
@@ -15,7 +15,7 @@
 <v t="2014fall.20141212095015.1786"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="2015.20150330144929.1714" a="E"><vh>以下為協同產品設計實習期中考試</vh>
-<v t="amd.20150503180635.1"><vh>與 OpenShift 應用程式同步</vh>
+<v t="amd.20150503180635.1" a="E"><vh>與 OpenShift 應用程式同步</vh>
 <v t="amd.20150503182305.1"><vh>錯誤訊息</vh></v>
 <v t="amd.20150503182956.1"><vh>已經完成 Github 倉儲與 OpenShift 同步</vh></v>
 <v t="amd.20150503183108.1"><vh>傳回學號</vh></v>
@@ -54,7 +54,7 @@
 </v>
 <v t="2014fall.20141212095015.1780"><vh>@edit setup.py</vh></v>
 </v>
-<v t="amd.20150503172957.1"><vh>以下為參考檔案</vh>
+<v t="amd.20150503172957.1" a="E"><vh>以下為參考檔案</vh>
 <v t="amd.20150503173029.1" a="E"><vh>@path ref</vh>
 <v t="amd.20150503173008.1" a="E"><vh>@clean wsgi.py</vh>
 <v t="amd.20150503173008.2"><vh>&lt;&lt;declarations&gt;&gt; (wsgi)</vh></v>
@@ -85,7 +85,7 @@
 <v t="amd.20150503173343.10"><vh>gear_weblink</vh></v>
 </v>
 </v>
-<v t="amd.20150503173429.1"><vh>@path static/Brython3.1.1-20150328-091302/Lib/site-packages/</vh>
+<v t="amd.20150503173429.1" a="E"><vh>@path static/Brython3.1.1-20150328-091302/Lib/site-packages/</vh>
 <v t="amd.20150503173429.2"><vh>@edit spur.py</vh></v>
 </v>
 <v t="amd.20150503173937.1"><vh>@edit pybean.py</vh></v>
@@ -1833,6 +1833,7 @@ def spuraction(self, N=20, M=5, P=15):
     output += "齒數為"+str(N)+"&lt;br /&gt;"
     output += "模數為"+str(M)+"&lt;br /&gt;"
     output += "壓力角為"+str(P)+"&lt;br /&gt;"
+    output += "學號為"40223248"&lt;br /&gt;"
     output +='''&lt;br /&gt;&lt;a href="/spur"&gt;spur&lt;/a&gt;(按下後再輸入)&lt;br /&gt;'''
     output +='''&lt;br /&gt;&lt;a href="index"&gt;index&lt;/a&gt;&lt;br /&gt;
     &lt;/body&gt;
